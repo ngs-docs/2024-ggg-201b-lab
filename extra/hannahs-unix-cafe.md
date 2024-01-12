@@ -15,12 +15,8 @@
 ------------
 
 ### Get started
-Today we're going to get familiar with the RStudio interface and the unix shell.
-- Start by logging into the lab computers with your CAS (kerberos) log in, and oppening RStudio. 
-- From the lab computers, log into canvas and download everything in `Files > Labs > lab_01/` folder. 
-- place those files into a folder on your desktop called "bis23b" (you will need to create this folder)
-- Finally open the RStudio app, and you are ready to go!
 
+(More info here)
 
 ### R Studio
 
@@ -46,7 +42,7 @@ Discussion questions:
 - Can we see the new folder, `bis23b` from the `Files` pane?
 
 ### R Markdown
-This (the thing youre reading) is an R Markdown document. It combines 2 programming languages; r and markdown. 
+This (the thing you're reading) is an R Markdown document. It combines 2 programming languages; r and markdown. 
 Markdown is an formatting syntax for authoring HTML, PDF, and MS Word documents. 
 R Markdown allows you to include executable R chunks (and even other languages!) among markdown formatted text. Think code & report in one place!
 For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
@@ -87,7 +83,7 @@ We should note that _folders_ are called **directories** at the command line. Fo
 
 Go click on the terminal "app" to get started. 
 
-When we open up terminal in binder we will see a a line of text. This is a **prompt statement**. It can tell us useful things such as the name of the directory we are currently in, our username, or what computer we are currently running terminal on. 
+When we open up terminal we will see a a line of text. This is a **prompt statement**. It can tell us useful things such as the name of the directory we are currently in, our username, or what computer we are currently running terminal on. 
 
 However, the prompt statement that pops up is quite long, you can customize it to read `$ ` it by running:
 ```
@@ -540,13 +536,6 @@ seq2 <- "CCGAAGGACTAGCTAGCTAGCGCGGATTG"
 ##################################
 ```
 
-
-
-## Save your work!
-make sure to save this R markdown file (.Rmd)
-You will want it to complete your first report, but this version will not be graded.
-You can upload to canvas under lab 1
-
 ## Lesson Sources & Resources
 *You don't need to do anything here either.*
 This lesson was adapted from the following resources:
@@ -556,4 +545,3 @@ This lesson was adapted from the following resources:
 - [DIB Lab: Advanced Beginner Shell](https://dib-training.readthedocs.io/en/pub/2016-01-13-adv-beg-shell.html)
 
 - [ggg298 lab2: UNIX_for_file_manipulation](https://github.com/ngs-docs/2021-GGG298/tree/latest/Week2-UNIX_for_file_manipulation)
-- [The sourmash portion was adapted from this  sourmash tutorial](https://sourmash.readthedocs.io/en/latest/tutorial-lemonade.html)
