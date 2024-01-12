@@ -4,6 +4,9 @@ tags: ggg, ggg2024, ggg201b
 
 # Syllabus for GGG 201(b) lab section: Genomics (Winter 2024)
 
+[![hackmd-github-sync-badge](https://hackmd.io/_Z7xnCosRMKlq--I297_XQ/badge)](https://hackmd.io/_Z7xnCosRMKlq--I297_XQ)
+
+
 Permanent link: [ngs-docs/2024-ggg-201b-lab](https://github.com/ngs-docs/2024-ggg-201b-lab/blob/main/SYLLABUS.md)
 
 [toc]
@@ -81,7 +84,7 @@ The labs are taught in a very hands-on way, with an emphasis on running things f
 
 ## Lab location
 
-Lab will be on Fridays 9-10:50am in Shields 360.
+Lab will be on Fridays 9-10:50am in Shields 360. You are welcome to attend remotely if need be, but in-person attendance is encouraged, even if it's really cold and dark outside.
 
 Shields 360 is the DataLab classroom.
 
