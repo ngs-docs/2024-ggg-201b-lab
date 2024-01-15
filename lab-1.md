@@ -10,7 +10,7 @@ tags: ggg, ggg2024, ggg201b
 
 Lab for Fri, Jan 12th, 2023.
 
-[Syllabus link](https://hackmd.io/_Z7xnCosRMKlq--I297_XQ?view)
+[Syllabus link for labs](https://hackmd.io/_Z7xnCosRMKlq--I297_XQ?view)
 
 ## Schedule for lab 1
 
@@ -20,12 +20,14 @@ Lab for Fri, Jan 12th, 2023.
     * [What experience with sequencing data analysis?](https://docs.google.com/forms/d/e/1FAIpQLScvypAMN3MMDVZEHeT7rypXEoAOkJKch-xKUQUS1Q1aJ0S1RQ/viewform)
     * [Describe a research question that you can use sequencing data to address](https://docs.google.com/forms/d/e/1FAIpQLSe5oXCv_N4Uxl9TzoWByDfYkKOocAGdEgaycEMqB1FbBH4Beg/viewform)
 * Welcome & intro
-* Brief syllabus overview
+* Brief syllabus overview and discussion of topics
 * Please check that you've gotten an e-mail from me with farm account information! 
     * subject should be "farm account information for GGG 201b lab"
     * username: datalab-xx
     * password: &lt;some nonsense string&gt;
     * (if you are in GGG 298, use same account as for that class)
+    * if you haven't gotten this e-mail, contact me at ctbrown@ucdavis.edu!
+* How sequencing data analysis fits into biology research - discussion & whiteboarding
 
 ## Resources for learning more stuff!
 
@@ -57,7 +59,7 @@ Once you log in successfully...
 
 You should be at a prompt that says `datalab-XX@farm:~$ `.
 
-Things to try:`
+Things to try:
 * log out and log back in a few times to make sure you've got it! You can log out by typing `exit`.
 * log in simultaneously a few times by using a new window or windows.
 
