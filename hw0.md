@@ -2,6 +2,9 @@
 tags: ggg, ggg2024, ggg201b
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/rYDn_4Z2S2GQJKISr7fSdA/badge)](https://hackmd.io/rYDn_4Z2S2GQJKISr7fSdA)
+
+
 [toc] 
 
 # GGG 201b WQ 2024 - HW 0 - Links and info
