@@ -49,7 +49,7 @@ The book [Bioinformatics Data Skills](https://vincebuffalo.com/book/) is an exce
 
 ### Logging into farm:
     
-Using the login information I sent you for farm, plese follow the appropriate set of instructions:
+Using the login information I sent you for farm, please follow the appropriate set of instructions for your platform:
     
 [Instructions for Mac OS, Linux, and WSL](https://ngs-docs.github.io/2021-august-remote-computing/connecting-to-remote-computers-with-ssh.html#mac-os-x-using-the-terminal-program)
 
