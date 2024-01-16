@@ -11,6 +11,10 @@ tags: ggg, ggg2024, ggg201b
 
 Due: noon on Wed, Jan 24th, 2024.
 
+Estimated time to complete: less than 30 minutes, even if you watch the videos.
+
+---
+
 This homework is a low-stakes homework designed solely to make sure you can (a) log into farm and (b) submit future homeworks.
 
 ## Summary
@@ -24,7 +28,13 @@ There is a video of starting up RStudio Server available: https://video.ucdavis.
 
 There is a video walkthrough of the rest of this homework here: https://video.ucdavis.edu/media/t/1_1wlln8ja
 
-## A slightly more detailed walkthrough
+## A more detailed written walkthrough
+
+### Log into farm and start up RStudio Server
+
+Use [these notes](https://hackmd.io/ZsRzMgMHREGWk2oGoZXOYA?both#Appendix-Advance-preparation-for-HW-0---links-amp-info).
+
+Here's a [video](https://video.ucdavis.edu/media/t/1_7ewrecc9).
 
 ### Log into github.com
 
