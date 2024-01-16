@@ -2,6 +2,9 @@
 tags: ggg, ggg2024, ggg298, ggg201b
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/5EfBWjCmTbWLgdC4rg8GZw/badge)](https://hackmd.io/5EfBWjCmTbWLgdC4rg8GZw)
+
+
 [toc]
 
 # Two introductions to UNIX
