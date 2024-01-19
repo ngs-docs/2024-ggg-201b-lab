@@ -8,7 +8,7 @@ tags: ggg, ggg2024, ggg201b
 
 # GGG 201b WQ 2024 - Lab 1, Day 1 - Links and info
 
-Lab for Fri, Jan 12th, 2023.
+Lab for Fri, Jan 12th, 2024.
 
 [Syllabus link for labs](https://hackmd.io/_Z7xnCosRMKlq--I297_XQ?view)
 
