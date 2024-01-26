@@ -2,6 +2,9 @@
 tags: ggg, ggg2024, ggg201b
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/dJKxykasR5aiMWHPhdiXRQ/badge)](https://hackmd.io/dJKxykasR5aiMWHPhdiXRQ)
+
+
 [toc]
 
 # GGG 201b WQ 2024 - Lab 3, Week 3 - Links and Info
