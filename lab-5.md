@@ -4,6 +4,9 @@ tags: ggg, ggg2024, ggg201b
 
 # Assembly hands-on - GGG 201b WQ 2024 - Lab 5, Week 5
 
+[![hackmd-github-sync-badge](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q/badge)](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q)
+
+
 ## Homework 1 is posted -
 
 [Homework 1](https://hackmd.io/WJPwMTpVTcaV9K_hLCq4mw?view#)
