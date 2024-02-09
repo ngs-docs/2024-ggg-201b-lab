@@ -2,10 +2,11 @@
 tags: ggg, ggg2024, ggg201b
 ---
 
-# Assembly hands-on - GGG 201b WQ 2024 - Lab 5, Week 5
+[toc]
 
 [![hackmd-github-sync-badge](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q/badge)](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q)
 
+# Assembly hands-on - GGG 201b WQ 2024 - Lab 5, Week 5
 
 ## Homework 1 is posted -
 
@@ -54,8 +55,12 @@ cd ~/2024-ggg-201b-assembly
 and then install a bunch of software with mamba:
 ```
 module load mamba
-mamba create -n assembly -y megahit sourmash quast snakemake-minimal
+mamba create -n assembly -y \
+    megahit sourmash quast snakemake-minimal \
+    samtools minimap2
 ```
+
+This installs [the megahit assembler](https://github.com/voutcn/megahit) as well as [quast](https://github.com/ablab/quast) and [sourmash](https://sourmash.readthedocs.io/). Quast is used to calculate assembly statistics, and we will use sourmash to evaluate content overlaps between the assembly and the reads.
 
 And then activate that software environment:
 ```
@@ -67,3 +72,41 @@ Copy in some data:
 cp ~ctbrown/data/ggg201b/SRR2584857_*.fastq.gz .
 ```
 
+Run an assembly:
+```
+snakemake -j 8
+```
+
+It should take a few minutes.
+
+What output did we get??
+
+Now look at the quast output:
+```
+cat SRR2584857_quast/report.txt
+```
+
+## Evaluate how well the assembly contains the reads
+
+First install a sourmash plugin or three:
+```
+pip install sourmash_plugin_containment_search \
+    sourmash_plugin_abundhist \
+    sourmash_plugin_venn
+```
+
+Generate a Venn diagram:
+```
+sourmash scripts venn *.sig.zip -o assembly.png
+```
+and check out `assembly.png`.
+
+Evaluate containment:
+```
+sourmash scripts mgsearch SRR2584857-assembly.sig.zip SRR2584857-reads.sig.zip
+```
+
+Check out an abundance histogram:
+```
+sourmash scripts abundhist SRR2584857-reads.sig.zip -M 100
+```
