@@ -95,6 +95,13 @@ pip install sourmash_plugin_containment_search \
     sourmash_plugin_venn
 ```
 
+Sketch the reads and assembly into k-mers:
+```
+snakemake -j 2 sketch
+```
+
+Now:
+
 Generate a Venn diagram:
 ```
 sourmash scripts venn *.sig.zip -o assembly.png
