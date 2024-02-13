@@ -66,7 +66,9 @@ Your homework is turned in when you can see your `hw1.txt` file on your github.c
 
 You'll need to copy in various files from `~ctbrown/data/ggg201b/`.
 
-Labs 3 and 4 contain the most helpful sets of commands to look at.
+To enable the right software environment, run `module load mamba` and then `mamba activate mapping`.
+
+Labs 3 and 4 contain the most helpful sets of commands to look at after that.
 
 Even if you don't use the Snakefile, it's got some useful commands at the bottom.
 
