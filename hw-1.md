@@ -36,7 +36,7 @@ Questions:
 - which variants are present in which samples?
 - which variants are shared between one or more samples?
 - which genes contain variants in more than one sample (and in which samples)?
-- of the variants that are in a coding region, which are synonymous and which are non-synonymous?
+- of the variants that are in a coding region, which are synonymous and which are non-synonymous? (Pick four genes of interest.)
 
 To complete the homework, submit (via GitHub):
 - any changes you made to the Snakefile
@@ -73,6 +73,8 @@ Labs 3 and 4 contain the most helpful sets of commands to look at after that.
 Even if you don't use the Snakefile, it's got some useful commands at the bottom.
 
 The coordinates of the coding regions are 1-based in the GFF, I believe.
+
+You can search for "E. coli rel606" on genbank, find the gene name, and then click on 'gene' to get to a detailed sequence view. You'll need to figure out the coding stuff yourself :)
 
 ## Helpful links and references
 
