@@ -2,9 +2,10 @@
 tags: ggg, ggg2024, ggg201b
 ---
 
-[toc]
+[![hackmd-github-sync-badge](https://hackmd.io/nhAMqZ3TRgG_Hov6xxtjUQ/badge)](https://hackmd.io/nhAMqZ3TRgG_Hov6xxtjUQ)
 
-[![hackmd-github-sync-badge](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q/badge)](https://hackmd.io/Vs7rMLJaTHWPV8VdMND_-Q)
+
+[toc]
 
 # Assembly hands-on - GGG 201b WQ 2024 - Lab 6
 
