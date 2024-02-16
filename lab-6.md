@@ -15,6 +15,10 @@ tags: ggg, ggg2024, ggg201b
 
 Monday is a holiday - I'll be available via e-mail. I'll be available in person at datalab from 1-2pm on Tuesday.
 
+## Digression
+
+What is snakemake? [link](https://ngs-docs.github.io/2023-snakemake-book-draft/)
+
 ## Assembly (computational) hands on
 
 Log into farm per [instructions](https://hackmd.io/ZsRzMgMHREGWk2oGoZXOYA?view#Appendix-Advance-preparation-for-HW-0---links-amp-info).
@@ -37,7 +41,7 @@ and then install a bunch of software with mamba:
 module load mamba
 mamba create -n assembly -y \
     megahit sourmash quast snakemake-minimal \
-    samtools minimap2 prokka
+    samtools minimap2
 ```
 
 This installs [the megahit assembler](https://github.com/voutcn/megahit) as well as [quast](https://github.com/ablab/quast) and [sourmash](https://sourmash.readthedocs.io/). Quast is used to calculate assembly statistics, and we will use sourmash to evaluate content overlaps between the assembly and the reads.
