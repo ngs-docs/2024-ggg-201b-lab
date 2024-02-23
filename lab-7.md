@@ -2,6 +2,9 @@
 tags: ggg, ggg2024, ggg201b
 ---
 
+[![hackmd-github-sync-badge](https://hackmd.io/4c2Vyt6vQ36ALvSNHJvK_Q/badge)](https://hackmd.io/4c2Vyt6vQ36ALvSNHJvK_Q)
+
+
 [toc]
 
 # Annotation hands-on - GGG 201b WQ 2024 - Lab 7
