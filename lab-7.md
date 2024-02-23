@@ -19,21 +19,52 @@ First half of class: Dr. Daniela de Soto, [Visual exploration of genomic data wi
 
 *Alt: Mommy, where do GFF files come from?*
 
-@@ rstudio login
+Log into farm per [instructions](https://hackmd.io/ZsRzMgMHREGWk2oGoZXOYA?view#Appendix-Advance-preparation-for-HW-0---links-amp-info).
 
+I would suggest using the following `srun` command:
+```
+srun -p high2 --time=3:00:00 --nodes=1 \
+    --cpus-per-task 8 --mem 10GB --pty /bin/bash
+```
+
+Now, install software:
 ```
 module load mamba
 mamba create -n annotation -y prokka
 module activate annotation
 ```
 
-@@ create directory, get files - datalab-08
+Create an annotation directory for lab 7 and get the files:
+```
+mkdir ~/201b-lab-7/
+cd ~/201b-lab-7/
+cp ~ctbrown/data/ggg201b-assembly/SRR2584857-assembly.fa ./
+```
 
+Now, run [prokka](https://github.com/tseemann/prokka) to generate an annotation!
 ```
 prokka --prefix SRR2584857_annot SRR2584857-assembly.fa
 ```
 
-@@ look at output, examine gff
+Honestly, reading the text output of this is fascinating in terms of understanding the process! (This is saved in the .txt file)
+
+The important / interesting files output by prokka are:
+* SRR2584857_annot.txt - summary of output
+* SRR2584857_annot.err - summary of errors
+* SRR2584857_annot.faa - **protein sequences**
+* SRR2584857_annot.ffn - **the gene sequences**
+* SRR2584857_annot.gff - **GFF file containing features!**
+* SRR2584857_annot.tsv - spreadsheet of genes / annotations
+
+Additional files:
+* SRR2584857_annot.fna - the original assembly file, unchanged (but renamed :)
+* SRR2584857_annot.fsa - annotated assembly file (contigs named)
+* SRR2584857_annot.gbk - genbank format annotation
+* SRR2584857_annot.log - log of the output
+* SRR2584857_annot.sqn - not sure exactly
+* SRR2584857_annot.tbl - some other format
+
+Thought experiment - why did we not just assemble & annotate the genes from the first half of the course, rather than calling variants, for the amino acid question from homework 1?
 
 ### Annotation basics
 
